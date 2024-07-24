@@ -29,7 +29,8 @@ module.exports = {
       colors: {
         red: "#FF0000",
         pink: "#FFEBEB",
-        darkpink: "#B400011A"
+        darkpink: "#B400011A",
+        ebony_clay:"#1B2228"
       },
       backgroundImage: {
         'hero': "url('./assets/images/webp/bg-hero.webp')",

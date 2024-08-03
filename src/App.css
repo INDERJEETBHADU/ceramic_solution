@@ -7,3 +7,18 @@
     display: flex !important;
     gap: 24px !important;
 }
+
+.slick-dots {
+    bottom: -24px !important;
+}
+
+.slick-dots li button:before {
+    font-size: 10px !important;
+    width: 10px !important;
+    height: 10px !important;
+}
+
+.slick-dots li.slick-active button:before {
+    opacity: .75;
+    color: #FF0000 !important;
+}

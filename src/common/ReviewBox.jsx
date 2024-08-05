@@ -7,7 +7,7 @@ function ReviewBox(props) {
   return (
     <>
       <div className=" flex gap-6">
-        <div className="max-w-[229.1px] bg-white rounded-3xl p-[6px_30.5px_6px_16px] ">
+        <div className="max-w-[229.1px] w-full h-[80px] bg-white rounded-3xl p-[8px_45.5px_6px_16px]">
           <div className=" flex items-center gap-[10.67px]">
             <img src={google} alt="google" />
             <div className=" ">
@@ -32,9 +32,13 @@ function ReviewBox(props) {
             </div>
           </div>
         </div>
-        <div className="max-w-[229.1px] bg-white rounded-3xl p-[6px_30.5px_6px_16px] ">
-          <div className=" flex items-center gap-[10.67px]">
-            <img src={large_star} alt="large_star" />
+        <div className="max-w-[229.1px] w-full h-[80px] bg-white rounded-3xl p-[8px_45.5px_6px_16px]">
+          <div className=" flex  h-full  gap-[10.67px]">
+            <img
+              className="h-[53.33px] w-full max-w-[53.33px] mt-1"
+              src={large_star}
+              alt="large_star"
+            />
             <div className=" ">
               <h5 className=" font-Manrope font-normal text-xs leading-[19.2px] text-cod_gray">
                 Trust Pilot Review

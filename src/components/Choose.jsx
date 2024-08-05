@@ -7,7 +7,7 @@ import chooseus from "../assets/images/webp/choose.webp";
 function Choose() {
   return (
     <>
-      <div className="bg-pink">
+      <div className="bg-pink max-w-[1920px] mx-auto">
         <div className="container py-16 xl:py-[100px]">
           <div className="row">
             <div className="col-12 lg:col-6">

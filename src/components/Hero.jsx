@@ -10,10 +10,10 @@ import star_box from "../assets/images/svg/star_box.svg";
 const Hero = () => {
   return (
     <>
-      <div className="bg-hero bg-center bg-cover">
+      <div className="bg-hero bg-center bg-cover max-w-[1920px] mx-auto">
         <Header />
         <div className="container pb-14">
-          <h2 className="font-Plus text-3xl sm:text-4xl md:text-5xl font-semibold xl:text-xxl xl:leading-[80.64px] text-white pt-[78px]">
+          <h2 className="font-Plus text-3xl sm:text-4xl md:text-5xl font-semibold xl:text-xxl xl:leading-[80.64px] text-white mt-[79px]">
             Transform Your Space with{" "}
             <span className="lg:block">Precision and Quality:</span>
             Get a Free Quote Today!
@@ -23,10 +23,10 @@ const Hero = () => {
             primasofi dede facebooka: förutom tivaligt. Fejkade nyheter
             eurosamma sol: teroktig,
           </p>
-          <CommonButton spacing="mt-9"/>
+          <CommonButton spacing="mt-9" />
           <div className="hidden sm:flex gap-6 mt-16 flex-wrap">
             <ReviewBox />
-            <img src={installer} alt="installer"/>
+            <img src={installer} alt="installer" />
             <img src={award} alt="award" />
           </div>
 

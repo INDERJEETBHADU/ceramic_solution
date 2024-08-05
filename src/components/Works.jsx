@@ -19,7 +19,7 @@ const Works = () => {
 
         <div className="max-w-[592px] w-full">
           <CommonHeading text="How it works?" />
-          <p className="font-Plus max-sm:text-base font-normal mt-5 mb-4 text-lg !leading-[28.8px] max-md:!leading-[25px] text-black">
+          <p className=" max-sm:text-base font-normal mt-5 mb-4 text-lg !leading-[28.8px] max-md:!leading-[25px] text-black">
             Lörem ipsum koda astrobel: sutaveligen. Rodod bänera viliga. Pregigt
             primasofi dede facebooka: förutom tivaligt.{" "}
           </p>
@@ -29,13 +29,13 @@ const Works = () => {
               className="shadow-[0px_1px_28px_1px_#4747471A] mt-4 p-4 bg-white rounded-3xl"
             >
               <div className="flex gap-5">
-                <img className="!size-8" src={data.Tick_Icon} alt="tick" />
+                <img className="!size-8" src={data.tick_icon} alt="tick" />
                 <div className="flex flex-col">
-                  <h4 className="font-Plus max-md:text-xl font-semibold text-xl leading-[32px] text-cornflower_blue">
-                    {data.Sub_Heading}
+                  <h4 className=" max-md:text-xl font-semibold text-xl leading-[32px] text-cornflower_blue">
+                    {data.heading}
                   </h4>
-                  <p className="text-black mt-3 max-sm:max-w-[222px] font-Plus text-base max-sm:text-xs leading-[25.6px]">
-                    {data.Sub_Paragraph}
+                  <p className="text-black mt-3 max-sm:max-w-[222px]  text-base max-sm:text-xs leading-[25.6px]">
+                    {data.paragraph}
                   </p>
                 </div>
               </div>

@@ -1,5 +1,5 @@
 import React from "react";
-import { Card } from "../common/Helper";
+import { WHAT_WE_DO_CARD } from "../common/Helper";
 import { Redarrowcard } from "../common/Icon";
 import CommonHeading from "../common/CommonHeading";
 import "swiper/css";
@@ -19,21 +19,27 @@ const Whatwedo = () => {
             align="text-center"
           />
           <div className="row hidden lg:flex">
-            {Card.map((data, index) => (
+            {WHAT_WE_DO_CARD.map((data, index) => (
               <div key={index} className="flex justify-center col-4 pt-6">
-                <div className="max-w-[364px] w-full rounded-3xl shadow-3xl p-6">
-                  <img src={data.img} alt="card-img" />
-                  <p className="font-Plus font-semibold text-2xl text-black mt-6">
-                    {data.head}
-                  </p>
-                  <p className="font-Plus font-normal text-base text-black mt-6">
-                    {data.para}
-                  </p>
-                  <div className="flex mt-6 items-center gap-3">
-                    <p className="font-Plus  cursor-pointer font-semibold text-base text-red">
+                <div className="max-w-[364px] flex flex-col justify-between w-full rounded-3xl shadow-3xl p-6">
+                  <div>
+                    <img
+                      className="rounded-3xl"
+                      src={data.img}
+                      alt="card-img"
+                    />
+                    <p className=" font-semibold text-2xl text-black mt-6">
+                      {data.heading}
+                    </p>
+                    <p className=" font-normal text-base text-black mt-6">
+                      {data.para}
+                    </p>
+                  </div>
+                  <div className="flex w-fit mt-6 group items-center gap-3">
+                    <p className="  cursor-pointer font-semibold text-base text-red">
                       Learn more
                     </p>
-                    <div className="cursor-pointer">
+                    <div className="cursor-pointer group-hover:translate-x-2 duration-300">
                       <Redarrowcard />
                     </div>
                   </div>
@@ -62,19 +68,19 @@ const Whatwedo = () => {
               modules={[Autoplay, Pagination]}
               className="swiper-container"
             >
-              {Card.map((data, index) => (
+              {WHAT_WE_DO_CARD.map((data, index) => (
                 <SwiperSlide key={index}>
                   <div className="flex justify-center p-5 mb-6">
                     <div className="max-w-[364px] w-full rounded-3xl shadow-3xl p-6">
                       <img src={data.img} alt="card-img" />
-                      <p className="font-Plus font-semibold text-xl lg:text-2xl text-black mt-6 text-nowrap">
+                      <p className=" font-semibold text-xl lg:text-2xl text-black mt-6 text-nowrap">
                         {data.head}
                       </p>
-                      <p className="font-Plus font-normal text-base text-black mt-3">
+                      <p className=" font-normal text-base text-black mt-3">
                         {data.para}
                       </p>
                       <div className="flex mt-6 items-center gap-3">
-                        <p className="font-Plus font-semibold text-base text-red">
+                        <p className=" font-semibold text-base text-red">
                           Learn more
                         </p>
                         <Redarrowcard />

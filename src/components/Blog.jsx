@@ -1,6 +1,6 @@
 import React from "react";
 import CommonHeading from "../common/CommonHeading";
-import { Blog_Crad } from "../common/Helper";
+import { BLOG_CARD } from "../common/Helper";
 import Slider from "react-slick";
 const Blog = () => {
   var settings = {
@@ -31,14 +31,14 @@ const Blog = () => {
     <div className="container pt-xxl max-lg:pt-[80px]">
       <CommonHeading text="Our Blog" align="text-center" />
       <div className="flex justify-center pt-5">
-        <p className="font-Plus text-center font-normal text-lg max-sm:text-sm leading-[28.8px] text-dark_black max-w-[592px]">
+        <p className=" text-center font-normal text-lg max-sm:text-sm leading-[28.8px] text-dark_black max-w-[592px]">
           Lörem ipsum koda astrobel: sutaveligen. Rodod bänera viliga. Pregigt
           primasofi dede facebooka: förutom tivaligt. Fejkade
         </p>
       </div>
 
       <div className="flex max-xl:hidden gap-6 justify-center mt-14 max-lg:mt-8">
-        {Blog_Crad.map((data, Blog) => (
+        {BLOG_CARD.map((data, Blog) => (
           <div
             key={Blog}
             className="shadow-[0px_0px_12px_3px_#B6B6B640] rounded-3xl p-[24px] bg-white max-w-[364px] w-full min-h-[474px]"
@@ -48,11 +48,11 @@ const Blog = () => {
               src={data.img}
               alt="main_img"
             />
-            <p className="font-Plus text-2xl leading-[38.4px] text-black font-semibold mt-6">
-              {data.Sub_Heading}
+            <p className=" text-2xl leading-[38.4px] text-black font-semibold mt-6">
+              {data.heading}
             </p>
             <div className="flex gap-[10px] items-center mt-4">
-              <p className="text-red cursor-pointer font-Plus text-base leading-[25.6px] font-semibold">
+              <p className="text-red cursor-pointer  text-base leading-[25.6px] font-semibold">
                 {data.learn}
               </p>
               <div className="cursor-pointer">{data.arrow}</div>
@@ -62,7 +62,7 @@ const Blog = () => {
       </div>
       <div className="xl:hidden">
         <Slider {...settings} className="mt-14 max-lg:mt-8 blog_slider">
-          {Blog_Crad.map((data, Blog) => (
+          {BLOG_CARD.map((data, Blog) => (
             <div
               key={Blog}
               className="shadow-[0px_0px_12px_3px_#B6B6B640] mb-8 max-lg:max-w-[342px] rounded-3xl p-[24px] bg-white max-w-[364px] w-full"
@@ -72,11 +72,11 @@ const Blog = () => {
                 src={data.img}
                 alt="main_img"
               />
-              <p className="font-Plus text-2xl leading-[38.4px] max-sm:text-base text-black font-semibold mt-6">
-                {data.Sub_Heading}
+              <p className=" text-2xl leading-[38.4px] max-sm:text-base text-black font-semibold mt-6">
+                {data.heading}
               </p>
               <div className="flex gap-[10px] items-center mt-4">
-                <p className="text-red cursor-pointer font-Plus text-base leading-[25.6px] font-semibold">
+                <p className="text-red cursor-pointer  text-base leading-[25.6px] font-semibold">
                   {data.learn}
                 </p>
                 <div className="cursor-pointer">{data.arrow}</div>

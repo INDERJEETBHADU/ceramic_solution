@@ -12,7 +12,7 @@ function Choose() {
           <div className="row">
             <div className="col-12 lg:col-6">
               <CommonHeading text="Why Choose us?" />
-              <p className="font-Plus font-normal text-base md:text-lg max-w-[590px] text-black mt-4 md:mt-5">
+              <p className=" font-normal text-base md:text-lg max-w-[590px] text-black mt-4 md:mt-5">
                 Lörem ipsum koda astrobel: sutaveligen. Rodod bänera viliga.
                 Pregigt primasofi dede facebooka: förutom tivaligt.{" "}
               </p>
@@ -21,10 +21,10 @@ function Choose() {
                   <RedStar />
                 </div>
                 <div className="flex flex-col">
-                  <p className="font-Plus font-semibold text-xl text-black">
+                  <p className=" font-semibold text-xl text-black">
                     High Quality Materials
                   </p>
-                  <p className="font-Plus font-normal text-sm md:text-base text-black mt-3 max-w-[370px]">
+                  <p className=" font-normal text-sm md:text-base text-black mt-3 max-w-[370px]">
                     Es ist ein lang erwiesener Fakt, dass ein Leser vom Text
                     abgelenkt wird.
                   </p>
@@ -35,10 +35,10 @@ function Choose() {
                   <Like />
                 </div>
                 <div className="flex flex-col">
-                  <p className="font-Plus font-semibold text-xl text-black">
+                  <p className=" font-semibold text-xl text-black">
                     Durability with Warranty
                   </p>
-                  <p className="font-Plus font-normal text-sm md:text-base text-black mt-3 max-w-[370px]">
+                  <p className=" font-normal text-sm md:text-base text-black mt-3 max-w-[370px]">
                     Es ist ein lang erwiesener Fakt, dass ein Leser vom Text
                     abgelenkt wird.
                   </p>
@@ -49,10 +49,10 @@ function Choose() {
                   <Callicon />
                 </div>
                 <div className="flex flex-col">
-                  <p className="font-Plus font-semibold text-xl text-black">
+                  <p className=" font-semibold text-xl text-black">
                     24/7 Support
                   </p>
-                  <p className="font-Plus font-normal text-sm md:text-base text-black mt-3 max-w-[370px]">
+                  <p className=" font-normal text-sm md:text-base text-black mt-3 max-w-[370px]">
                     Es ist ein lang erwiesener Fakt, dass ein Leser vom Text
                     abgelenkt wird.
                   </p>

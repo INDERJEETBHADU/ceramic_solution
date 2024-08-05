@@ -6,8 +6,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        'Plus': "'Plus Jakarta Sans',sans-serif",
-        'Manrope': "'Manrope', sans-serif"
+        'manrope': "'Manrope', sans-serif"
       },
       fontSize: {
         xxl: "64px",

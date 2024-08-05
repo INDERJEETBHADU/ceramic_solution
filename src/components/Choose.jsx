@@ -20,7 +20,7 @@ function Choose() {
                 <div className="min-w-16 h-2xl rounded-[10px] bg-darkpink flex justify-center items-center">
                   <RedStar />
                 </div>
-                <div>
+                <div className="flex flex-col">
                   <p className="font-Plus font-semibold text-xl text-black">
                     High Quality Materials
                   </p>
@@ -34,7 +34,7 @@ function Choose() {
                 <div className="min-w-16 h-2xl rounded-[10px] bg-darkpink flex justify-center items-center">
                   <Like />
                 </div>
-                <div>
+                <div className="flex flex-col">
                   <p className="font-Plus font-semibold text-xl text-black">
                     Durability with Warranty
                   </p>
@@ -48,7 +48,7 @@ function Choose() {
                 <div className="min-w-16 h-2xl rounded-[10px] bg-darkpink flex justify-center items-center">
                   <Callicon />
                 </div>
-                <div>
+                <div className="flex flex-col">
                   <p className="font-Plus font-semibold text-xl text-black">
                     24/7 Support
                   </p>

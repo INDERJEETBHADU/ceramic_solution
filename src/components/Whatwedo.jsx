@@ -30,10 +30,12 @@ const Whatwedo = () => {
                     {data.para}
                   </p>
                   <div className="flex mt-6 items-center gap-3">
-                    <p className="font-Plus font-semibold text-base text-red ">
+                    <p className="font-Plus  cursor-pointer font-semibold text-base text-red">
                       Learn more
                     </p>
-                    <Redarrowcard />
+                    <div className="cursor-pointer">
+                      <Redarrowcard />
+                    </div>
                   </div>
                 </div>
               </div>
@@ -62,7 +64,7 @@ const Whatwedo = () => {
             >
               {Card.map((data, index) => (
                 <SwiperSlide key={index}>
-                  <div className="flex justify-center p-5">
+                  <div className="flex justify-center p-5 mb-6">
                     <div className="max-w-[364px] w-full rounded-3xl shadow-3xl p-6">
                       <img src={data.img} alt="card-img" />
                       <p className="font-Plus font-semibold text-xl lg:text-2xl text-black mt-6 text-nowrap">

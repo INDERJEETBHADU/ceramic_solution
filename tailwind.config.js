@@ -30,7 +30,8 @@ module.exports = {
         red: "#FF0000",
         pink: "#FFEBEB",
         darkpink: "#B400011A",
-        cod_gray:"#141414"
+        cod_gray:"#141414",
+        dark_black:"#010101"
       },
       backgroundImage: {
         'hero': "url('./assets/images/webp/hero_bg_img.webp')",
@@ -66,4 +67,3 @@ module.exports = {
   },
   plugins: [],
 }
-

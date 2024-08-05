@@ -3,12 +3,32 @@
     background: red !important;
 }
 
-.swiper-pagination-bullet {
+.slick-slide {
+    display: flex !important;
+    justify-content: center !important;
+}
+
+.slick-slider .slick-track {
+    display: flex !important;
+    gap: 24px !important;
+}
+
+.slick-dots {
+    bottom: -24px !important;
+}
+
+.slick-dots li button:before {
+    font-size: 10px !important;
     width: 10px !important;
     height: 10px !important;
 }
 
+.slick-dots li.slick-active button:before {
+    opacity: .75;
+    color: #FF0000 !important;
+}
 
-.height{
-    min-height: calc(100vh - 90px);
+.swiper-horizontal>.swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal {
+    bottom: -5px !important;
 }

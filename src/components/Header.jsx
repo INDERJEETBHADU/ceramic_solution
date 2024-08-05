@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Logo from "../assets/images/svg/logo.svg";
+import logo from "../assets/images/svg/logo.svg";
 import { Buttonicon, Navcross, Navline } from "../common/Icon";
 const Header = () => {
   const [show, setfirst] = useState(false);
@@ -14,7 +14,9 @@ const Header = () => {
       <div className="container pt-6">
         <div className="w-full max-w-[1140px] bg-white rounded-3xl p-4">
           <nav className="flex justify-between items-center">
-            <a href="/"><img src={Logo} alt="logo" /></a>
+            <a href="/">
+              <img src={logo} alt="logo" />
+            </a>
             <ul
               className={`${
                 show ? "inset-0" : "inset-full"
@@ -89,19 +91,22 @@ const Header = () => {
                 </a>
               </li>
               <li className="md:hidden">
-                {" "}
-                <button className="bg-red py-4 px-5 rounded-[56px] font-Plus font-bold text-base leading-[20px] text-white flex">
-                  <Buttonicon />
-                  <span>(865) 621-1717</span>
-                </button>
+                <a href="tel:+6494461709">
+                  <button className="bg-red py-4 px-5 rounded-[56px] font-Plus font-bold text-base leading-[20px] text-white flex">
+                    <Buttonicon />
+                    <span>(865) 621-1717</span>
+                  </button>
+                </a>
               </li>
             </ul>
-            <button className="bg-red py-4 px-5 rounded-[56px] font-Plus font-bold text-base leading-[20px] text-white hidden md:flex gap-3">
-              <span>
-                <Buttonicon />
-              </span>
-              (865) 621-1717
-            </button>
+            <a href="tel:+6494461709">
+              <button className="bg-red py-4 px-5 rounded-[56px] font-Plus font-bold text-base leading-[20px] text-white hidden md:flex gap-3">
+                <span>
+                  <Buttonicon />
+                </span>
+                (865) 621-1717
+              </button>
+            </a>
             <div
               className="z-10 bg-red lg:hidden cursor-pointer rounded-[10px] "
               onClick={() => {

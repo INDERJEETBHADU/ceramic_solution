@@ -18,7 +18,7 @@ const Interested = () => {
             Lörem ipsum koda astrobel: sutaveligen. Rodod bänera viliga. Pregigt
             primasofi dede facebooka: förutom tivaligt.{" "}
           </p>
-          <button className="font-bold text-sm sm:text-lg leading-[22.68px] text-red bg-white hover:text-white hover:bg-red border border-transparent hover:border-white py-5 px-8 max-md:px-5 rounded-[56px] duration-300">
+          <button className="font-bold text-sm sm:text-lg leading-[22.68px] text-red bg-white hover:text-white hover:bg-red border border-transparent hover:border-white py-4 px-8 max-md:px-5 rounded-[56px] duration-300">
             Get a Quote
           </button>
         </div>

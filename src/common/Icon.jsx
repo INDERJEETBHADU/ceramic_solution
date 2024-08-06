@@ -32,7 +32,7 @@ export const Navline = () => {
 
 export const Buttonicon = () => {
   return (
-    <svg
+    <svg className="nav_btn_icon"
       width="24"
       height="24"
       viewBox="0 0 24 24"

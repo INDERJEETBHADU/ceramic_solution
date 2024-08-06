@@ -7,7 +7,7 @@ function ReviewBox(props) {
   return (
     <>
       <div className="flex lg:gap-6 gap-5 max-[576px]:justify-center flex-wrap">
-        <div className="max-w-[229.1px] border-[1px] w-full min-h-[80px] bg-white rounded-2xl p-[5px_45.5px_5px_16px]">
+        <div className="max-w-[229.1px] border w-full min-h-[80px] bg-white rounded-2xl p-[5px_45.5px_5px_16px]">
           <div className="flex items-center gap-[10.67px]">
             <img src={google} alt="google" />
             <div className="">
@@ -32,7 +32,7 @@ function ReviewBox(props) {
             </div>
           </div>
         </div>
-        <div className="max-w-[229.1px] w-full border-[1px] min-h-[80px] bg-white rounded-2xl p-[5px_45.5px_5px_16px]">
+        <div className="max-w-[229.1px] w-full border min-h-[80px] bg-white rounded-2xl p-[5px_45.5px_5px_16px]">
           <div className="flex h-full gap-[10.67px]">
             <img
               className="h-[53.33px] w-full max-w-[53.33px] mt-1"

@@ -36,3 +36,12 @@ body {
 .swiper-pagination-bullets.swiper-pagination-horizontal {
     bottom: -5px !important;
 }
+
+.nav_btn .nav_btn_icon path {
+    fill: white;
+    transition: all linear 300ms;
+}
+
+.nav_btn:hover .nav_btn_icon path {
+    fill: red;
+}

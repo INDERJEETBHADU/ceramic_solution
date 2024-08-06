@@ -92,7 +92,7 @@ const Header = () => {
               </li>
               <li className="md:hidden">
                 <a href="tel:+6494461709">
-                  <button className="bg-red py-4 px-5 items-center rounded-[56px]  font-bold text-base leading-[20px] text-white flex">
+                  <button className="bg-red nav_btn border-transparent border hover:border-red hover:text-red hover:bg-white py-4 px-5 items-center rounded-[56px] duration-300  font-bold text-base leading-[20px] text-white flex">
                     <Buttonicon />
                     <span>(865) 621-1717</span>
                   </button>
@@ -100,7 +100,7 @@ const Header = () => {
               </li>
             </ul>
             <a href="tel:+6494461709">
-              <button className="bg-red py-4 px-5 items-center rounded-[56px]  font-bold text-base leading-[20px] text-white hidden md:flex gap-3">
+              <button className="bg-red nav_btn py-4 px-5 items-center rounded-[56px] font-bold border-transparent border hover:border-red hover:text-red hover:bg-white duration-300 text-base leading-[20px] text-white hidden md:flex gap-3">
                 <span>
                   <Buttonicon />
                 </span>
@@ -108,7 +108,7 @@ const Header = () => {
               </button>
             </a>
             <div
-              className="z-10 bg-red lg:hidden cursor-pointer rounded-[10px] "
+              className="z-10 bg-red lg:hidden cursor-pointer rounded-[10px] py-1 "
               onClick={() => {
                 setfirst(!show);
               }}

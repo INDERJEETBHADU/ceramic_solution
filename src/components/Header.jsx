@@ -30,7 +30,7 @@ const Header = () => {
               >
                 <a
                   href="#features"
-                  className=" font-normal text-base text-black transition-all duration-300 ease-linear hover:text-red"
+                  className="font-normal text-base text-black transition-all duration-300 ease-linear hover:text-red"
                 >
                   Home
                 </a>
@@ -38,7 +38,7 @@ const Header = () => {
               <li className="flex gap-1 items-center relative group">
                 <a
                   href="#pricing"
-                  className=" font-normal text-base text-black transition-all duration-300 ease-linear hover:text-red"
+                  className="font-normal text-base text-black transition-all duration-300 ease-linear hover:text-red"
                   onClick={() => {
                     setfirst(!show);
                   }}
@@ -49,7 +49,7 @@ const Header = () => {
               <li className="relative group">
                 <a
                   href="#about"
-                  className=" font-normal text-base text-black transition-all duration-300 ease-linear hover:text-red"
+                  className="font-normal text-base text-black transition-all duration-300 ease-linear hover:text-red"
                   onClick={() => {
                     setfirst(!show);
                   }}
@@ -60,7 +60,7 @@ const Header = () => {
               <li className="relative group">
                 <a
                   href="#community"
-                  className=" font-normal text-base text-black transition-all duration-300 ease-linear hover:text-red"
+                  className="font-normal text-base text-black transition-all duration-300 ease-linear hover:text-red"
                   onClick={() => {
                     setfirst(!show);
                   }}
@@ -71,7 +71,7 @@ const Header = () => {
               <li className="relative group">
                 <a
                   href="#education"
-                  className=" font-normal text-base text-black transition-all duration-300 ease-linear hover:text-red"
+                  className="font-normal text-base text-black transition-all duration-300 ease-linear hover:text-red"
                   onClick={() => {
                     setfirst(!show);
                   }}
@@ -82,7 +82,7 @@ const Header = () => {
               <li className="relative group">
                 <a
                   href="#education"
-                  className=" font-normal text-base text-black transition-all duration-300 ease-linear hover:text-red"
+                  className="font-normal text-base text-black transition-all duration-300 ease-linear hover:text-red"
                   onClick={() => {
                     setfirst(!show);
                   }}

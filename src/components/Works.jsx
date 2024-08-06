@@ -6,7 +6,7 @@ import CommonButton from "../common/CommonButton";
 
 const Works = () => {
   return (
-    <div className="container pt-xxl max-lg:pt-[80px] ">
+    <div className="container">
       <div className="flex xl:gap-16 max-xl:justify-center ">
         <div className="relative max-xl:hidden ml-[50px] mb-[50px]">
           <img
@@ -19,7 +19,7 @@ const Works = () => {
 
         <div className="max-w-[592px] w-full">
           <CommonHeading text="How it works?" />
-          <p className=" max-sm:text-base font-normal mt-5 mb-4 text-lg !leading-[28.8px] max-md:!leading-[25px] text-black">
+          <p className="max-sm:text-base font-normal mt-5 mb-4 text-lg !leading-[28.8px] max-md:!leading-[25px] text-black">
             Lörem ipsum koda astrobel: sutaveligen. Rodod bänera viliga. Pregigt
             primasofi dede facebooka: förutom tivaligt.{" "}
           </p>
@@ -31,10 +31,10 @@ const Works = () => {
               <div className="flex gap-5">
                 <img className="!size-8" src={data.tick_icon} alt="tick" />
                 <div className="flex flex-col">
-                  <h4 className=" max-md:text-xl font-semibold text-xl leading-[32px] text-cornflower_blue">
+                  <h4 className="max-md:text-xl font-semibold text-xl leading-[32px] text-cornflower_blue">
                     {data.heading}
                   </h4>
-                  <p className="text-black mt-3 max-sm:max-w-[222px]  text-base max-sm:text-xs leading-[25.6px]">
+                  <p className="text-black mt-3 max-sm:max-w-[222px] text-base max-sm:text-xs leading-[25.6px]">
                     {data.paragraph}
                   </p>
                 </div>

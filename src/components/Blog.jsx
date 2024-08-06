@@ -28,8 +28,8 @@ const Blog = () => {
     ],
   };
   return (
-    <div className="container pt-xxl max-lg:pt-[80px]">
-      <CommonHeading text="Our Blog" align="text-center" />
+    <div className="container pt-xxl max-lg:pt-20 pb-xxl max-lg:pb-20">
+      <CommonHeading text="Our Blog" className="text-center" />
       <div className="flex justify-center pt-5">
         <p className=" text-center font-normal text-lg max-sm:text-sm leading-[28.8px] text-dark_black max-w-[592px]">
           Lörem ipsum koda astrobel: sutaveligen. Rodod bänera viliga. Pregigt
@@ -51,11 +51,13 @@ const Blog = () => {
             <p className=" text-2xl leading-[38.4px] text-black font-semibold mt-6">
               {data.heading}
             </p>
-            <div className="flex gap-[10px] items-center mt-4">
-              <p className="text-red cursor-pointer  text-base leading-[25.6px] font-semibold">
+            <div className="flex gap-[10px] w-fit group items-center mt-4">
+              <p className="text-red cursor-pointer text-base leading-[25.6px] font-semibold">
                 {data.learn}
               </p>
-              <div className="cursor-pointer">{data.arrow}</div>
+              <div className="cursor-pointer group-hover:translate-x-1 duration-300">
+                {data.arrow}
+              </div>
             </div>
           </div>
         ))}
@@ -75,11 +77,13 @@ const Blog = () => {
               <p className=" text-2xl leading-[38.4px] max-sm:text-base text-black font-semibold mt-6">
                 {data.heading}
               </p>
-              <div className="flex gap-[10px] items-center mt-4">
-                <p className="text-red cursor-pointer  text-base leading-[25.6px] font-semibold">
+              <div className="flex gap-[10px] items-center group mt-4">
+                <p className="text-red cursor-pointer text-base leading-[25.6px] font-semibold">
                   {data.learn}
                 </p>
-                <div className="cursor-pointer">{data.arrow}</div>
+                <div className="cursor-pointer group-hover:translate-x-1 duration-300">
+                  {data.arrow}
+                </div>
               </div>
             </div>
           ))}

@@ -5,7 +5,7 @@ import floor from "../assets/images/webp/floor.webp";
 import tiling from "../assets/images/webp/tiling.webp";
 import format from "../assets/images/webp/format.webp";
 import ada from "../assets/images/webp/ada.webp";
-import mark_t from "../assets/images/svg/customers_mark.svg";
+import mark_img from "../assets/images/svg/customers_mark.svg";
 import star from "../assets/images/svg/customers_star_icons.svg";
 import tick_icons from "../assets/images/svg/works_tick.svg";
 import blog_img from "../assets/images/webp/blog-card-img.webp";
@@ -50,7 +50,7 @@ export const WHAT_WE_DO_CARD = [
 
 export const CUSTOMERS_CARD = [
   {
-    img: mark_t,
+    img: mark_img,
     heading: "Mark T.",
     job: "Fitness enthusiast",
     star: star,
@@ -58,7 +58,7 @@ export const CUSTOMERS_CARD = [
       "As a fitness enthusiast, I was skeptical about resistance bands at first. But after trying these, Im a believer. The quality is top-notch, and they ve become an integral part of my workout routine. I can't believe how versatile they are.”",
   },
   {
-    img: mark_t,
+    img: mark_img,
     heading: "Mark T.",
     job: "Fitness enthusiast",
     star: star,
@@ -66,7 +66,7 @@ export const CUSTOMERS_CARD = [
       "As a fitness enthusiast, I was skeptical about resistance bands at first. But after trying these, Im a believer. The quality is top-notch, and they ve become an integral part of my workout routine. I can't believe how versatile they are.”",
   },
   {
-    img: mark_t,
+    img: mark_img,
     heading: "Mark T.",
     job: "Fitness enthusiast",
     star: star,
@@ -74,7 +74,7 @@ export const CUSTOMERS_CARD = [
       "As a fitness enthusiast, I was skeptical about resistance bands at first. But after trying these, Im a believer. The quality is top-notch, and they ve become an integral part of my workout routine. I can't believe how versatile they are.”",
   },
   {
-    img: mark_t,
+    img: mark_img,
     heading: "Mark T.",
     job: "Fitness enthusiast",
     star: star,
@@ -82,7 +82,7 @@ export const CUSTOMERS_CARD = [
       "As a fitness enthusiast, I was skeptical about resistance bands at first. But after trying these, Im a believer. The quality is top-notch, and they ve become an integral part of my workout routine. I can't believe how versatile they are.”",
   },
   {
-    img: mark_t,
+    img: mark_img,
     heading: "Mark T.",
     job: "Fitness enthusiast",
     star: star,
@@ -90,7 +90,7 @@ export const CUSTOMERS_CARD = [
       "As a fitness enthusiast, I was skeptical about resistance bands at first. But after trying these, Im a believer. The quality is top-notch, and they ve become an integral part of my workout routine. I can't believe how versatile they are.”",
   },
   {
-    img: mark_t,
+    img: mark_img,
     heading: "Mark T.",
     job: "Fitness enthusiast",
     star: star,
@@ -142,8 +142,7 @@ export const BLOG_CARD = [
 
   {
     img: blog_img,
-    heading:
-      "Lörem ipsum koda astrobel: sutaveligen. Rodod bänera viliga. ",
+    heading: "Lörem ipsum koda astrobel: sutaveligen. Rodod bänera viliga. ",
     learn: "Learn more",
     arrow: (
       <svg
@@ -163,8 +162,7 @@ export const BLOG_CARD = [
 
   {
     img: blog_img,
-    heading:
-      "Lörem ipsum koda astrobel: sutaveligen. Rodod bänera viliga. ",
+    heading: "Lörem ipsum koda astrobel: sutaveligen. Rodod bänera viliga. ",
     learn: "Learn more",
     arrow: (
       <svg

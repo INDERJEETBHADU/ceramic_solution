@@ -58,13 +58,13 @@ function Choose() {
                   </p>
                 </div>
               </div>
-              <CommonButton spacing="mt-9" />
+              <CommonButton className="mt-9" />
             </div>
             <div className="col-12 lg:col-6 relative lg:flex flex-col items-end hidden">
               <img
                 src={chooseus}
                 alt="chooseus"
-                className=" max-w-[469px] rounded-3xl w-full z-10 relative"
+                className="max-w-[469px] rounded-3xl w-full z-10 relative"
               />
               <div className="hidden xl:block absolute top-[34%] left-[4%] w-[300px] h-[396px] bg-red rounded-[24px] z-[2]"></div>
             </div>

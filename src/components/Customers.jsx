@@ -18,10 +18,10 @@ const Customers = () => {
   };
   return (
     <div className=" max-w-[1440px] mx-auto">
-      <div className=" container pt-xxl max-lg:pt-[80px] ">
-        <CommonHeading text="What Our Customers Say" align="text-center" />
+      <div className=" container pt-xxl max-lg:pt-20 ">
+        <CommonHeading text="What Our Customers Say" className="text-center" />
         <div className="flex justify-center ">
-          <p className="  mt-5 max-lg:mt-4 text-lg max-sm:text-sm max-md:text-sm max-md:!leading-[22.4px] !leading-[28.8px] text-black max-w-[641px] text-center ">
+          <p className="mt-5 max-lg:mt-4 text-lg max-sm:text-sm max-md:text-sm max-md:!leading-[22.4px] !leading-[28.8px] text-black max-w-[641px] text-center ">
             Lörem ipsum koda astrobel: sutaveligen. Rodod bänera viliga. Pregigt
             primasofi dede facebooka: förutom tivaligt. Fejkade
           </p>
@@ -31,11 +31,11 @@ const Customers = () => {
         <ReviewBox />
       </div>
 
-      <Slider {...settings} className="mt-14">
+      <Slider {...settings}>
         {CUSTOMERS_CARD.map((data, index) => (
           <div
             key={index}
-            className="max-w-[364px] mb-3 max-sm:max-w-[340px] p-6 w-full bg-white rounded-3xl shadow-[0px_2px_44px_3px_#5757571A]"
+            className="max-w-[364px] mb-[140px] mt-14 max-lg:mb-20 max-sm:max-w-[340px] p-6 w-full bg-white rounded-3xl shadow-[0px_2px_44px_3px_#5757571A]"
           >
             <div className="flex gap-2">
               <img src={data.img} alt="mark" />

@@ -30,11 +30,11 @@ const Customers = () => {
       <div className="flex justify-center mt-8 items-center">
         <ReviewBox />
       </div>
-      <Slider {...settings}>
+      <Slider {...settings} className="max-h-[501px] max-md:max-h-[444px]">
         {CUSTOMERS_CARD.map((data, index) => (
           <div
             key={index}
-            className="max-w-[364px] mb-[140px] mt-14 max-lg:mb-20 max-sm:max-w-[340px] p-6 w-full bg-white rounded-3xl shadow-[0px_2px_44px_3px_#5757571A]"
+            className="max-w-[364px] mx-3 mb-[140px] mt-14 max-lg:mb-20 max-sm:max-w-[340px] p-6 w-full bg-white rounded-3xl shadow-[0px_2px_44px_3px_#5757571A]"
           >
             <div className="flex gap-2">
               <img src={data.img} alt="mark" />

@@ -43,7 +43,7 @@ const Works = () => {
           ))}
           <div className="flex gap-6 max-sm:gap-1 pt-6">
             <CommonButton />
-            <button className="border-red border max-md:text-sm max-md:leading-[20px] hover:bg-red hover:text-white duration-300 rounded-[56px] font-bold text-lg leading-[22.68px] text-red p-[20px_32px] max-md:p-[20px_20px]">
+            <button className="border-red border max-md:text-sm max-md:leading-[20px] hover:bg-red hover:text-white duration-300 rounded-[56px] max-sm:max-w-[192px] max-sm:w-full font-bold text-lg leading-[22.68px] text-red p-[20px_32px] max-[370px]:p-[16px_16px] max-md:p-[20px_20px]">
               View Tile Visualizer
             </button>
           </div>

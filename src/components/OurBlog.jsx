@@ -2,7 +2,7 @@ import React from "react";
 import CommonHeading from "../common/CommonHeading";
 import { BLOG_CARD } from "../common/Helper";
 import Slider from "react-slick";
-const Blog = () => {
+const OurBlog = () => {
   var settings = {
     dots: true,
     infinite: true,
@@ -28,7 +28,10 @@ const Blog = () => {
     ],
   };
   return (
-    <div className="container pt-xxl max-lg:pt-20 pb-xxl max-lg:pb-20">
+    <div
+      id="portfolio"
+      className="container pt-xxl max-lg:pt-20 pb-xxl max-lg:pb-20"
+    >
       <CommonHeading text="Our Blog" className="text-center" />
       <div className="flex justify-center pt-5">
         <p className=" text-center font-normal text-lg max-sm:text-sm leading-[28.8px] text-dark_black max-w-[592px]">
@@ -36,7 +39,6 @@ const Blog = () => {
           primasofi dede facebooka: förutom tivaligt. Fejkade
         </p>
       </div>
-
       <div className="flex max-xl:hidden gap-6 justify-center mt-14 max-lg:mt-8">
         {BLOG_CARD.map((data, Blog) => (
           <div
@@ -48,7 +50,7 @@ const Blog = () => {
               src={data.img}
               alt="main_img"
             />
-            <p className=" text-2xl leading-[38.4px] text-black font-semibold mt-6">
+            <p className="text-2xl leading-[38.4px] text-black font-semibold mt-6">
               {data.heading}
             </p>
             <div className="flex gap-[10px] w-fit group items-center mt-4">
@@ -74,7 +76,7 @@ const Blog = () => {
                 src={data.img}
                 alt="main_img"
               />
-              <p className=" text-2xl leading-[38.4px] max-sm:text-base text-black font-semibold mt-6">
+              <p className="text-2xl leading-[38.4px] max-sm:text-base text-black font-semibold mt-6">
                 {data.heading}
               </p>
               <div className="flex gap-[10px] items-center group mt-4">
@@ -93,4 +95,4 @@ const Blog = () => {
   );
 };
 
-export default Blog;
+export default OurBlog;

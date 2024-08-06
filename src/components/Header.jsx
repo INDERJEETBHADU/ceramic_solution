@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import logo from "../assets/images/svg/logo.svg";
-import { Buttonicon, Navcross, Navline } from "../common/Icon";
+import { ButtonIcon, NavCross, NavLine } from "../common/Icon";
 const Header = () => {
-  const [show, setfirst] = useState(false);
+  const [show, setFirst] = useState(false);
 
   if (show === true) {
     document.body.classList.add("max-lg:overflow-hidden");
@@ -10,7 +10,6 @@ const Header = () => {
     document.body.classList.remove("max-lg:overflow-hidden");
   }
   return (
-    <>
       <div className="container pt-6">
         <div className="w-full max-w-[1140px] bg-white rounded-3xl p-4">
           <nav className="flex justify-between items-center">
@@ -25,11 +24,11 @@ const Header = () => {
               <li
                 className="relative group"
                 onClick={() => {
-                  setfirst(!show);
+                  setFirst(!show);
                 }}
               >
                 <a
-                  href="#features"
+                  href="#Home"
                   className="font-normal text-base text-black transition-all duration-300 ease-linear hover:text-red"
                 >
                   Home
@@ -37,10 +36,10 @@ const Header = () => {
               </li>
               <li className="flex gap-1 items-center relative group">
                 <a
-                  href="#pricing"
+                  href="#about"
                   className="font-normal text-base text-black transition-all duration-300 ease-linear hover:text-red"
                   onClick={() => {
-                    setfirst(!show);
+                    setFirst(!show);
                   }}
                 >
                   About
@@ -48,10 +47,10 @@ const Header = () => {
               </li>
               <li className="relative group">
                 <a
-                  href="#about"
+                  href="#services"
                   className="font-normal text-base text-black transition-all duration-300 ease-linear hover:text-red"
                   onClick={() => {
-                    setfirst(!show);
+                    setFirst(!show);
                   }}
                 >
                   Services
@@ -59,10 +58,10 @@ const Header = () => {
               </li>
               <li className="relative group">
                 <a
-                  href="#community"
+                  href="#portfolio"
                   className="font-normal text-base text-black transition-all duration-300 ease-linear hover:text-red"
                   onClick={() => {
-                    setfirst(!show);
+                    setFirst(!show);
                   }}
                 >
                   Portfolio
@@ -70,10 +69,10 @@ const Header = () => {
               </li>
               <li className="relative group">
                 <a
-                  href="#education"
+                  href="#contact"
                   className="font-normal text-base text-black transition-all duration-300 ease-linear hover:text-red"
                   onClick={() => {
-                    setfirst(!show);
+                    setFirst(!show);
                   }}
                 >
                   Contact us
@@ -81,10 +80,10 @@ const Header = () => {
               </li>
               <li className="relative group">
                 <a
-                  href="#education"
+                  href="#quote"
                   className="font-normal text-base text-black transition-all duration-300 ease-linear hover:text-red"
                   onClick={() => {
-                    setfirst(!show);
+                    setFirst(!show);
                   }}
                 >
                   Request a Qoute
@@ -93,7 +92,7 @@ const Header = () => {
               <li className="md:hidden">
                 <a href="tel:+6494461709">
                   <button className="bg-red nav_btn border-transparent border hover:border-red hover:text-red hover:bg-white py-4 px-5 items-center rounded-[56px] duration-300  font-bold text-base leading-[20px] text-white flex">
-                    <Buttonicon />
+                    <ButtonIcon />
                     <span>(865) 621-1717</span>
                   </button>
                 </a>
@@ -102,7 +101,7 @@ const Header = () => {
             <a href="tel:+6494461709">
               <button className="bg-red nav_btn py-4 px-5 items-center rounded-[56px] font-bold border-transparent border hover:border-red hover:text-red hover:bg-white duration-300 text-base leading-[20px] text-white hidden md:flex gap-3">
                 <span>
-                  <Buttonicon />
+                  <ButtonIcon />
                 </span>
                 (865) 621-1717
               </button>
@@ -110,15 +109,14 @@ const Header = () => {
             <div
               className="z-10 bg-red lg:hidden cursor-pointer rounded-[10px] py-1 "
               onClick={() => {
-                setfirst(!show);
+                setFirst(!show);
               }}
             >
-              <span>{show === false ? <Navline /> : <Navcross />}</span>
+              <span>{show === false ? <NavLine /> : <NavCross />}</span>
             </div>
           </nav>
         </div>
       </div>
-    </>
   );
 };
 

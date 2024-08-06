@@ -5,10 +5,10 @@ import floor from "../assets/images/webp/floor.webp";
 import tiling from "../assets/images/webp/tiling.webp";
 import format from "../assets/images/webp/format.webp";
 import ada from "../assets/images/webp/ada.webp";
-import mark_img from "../assets/images/svg/customers_mark.svg";
+import markImg from "../assets/images/svg/customers_mark.svg";
 import star from "../assets/images/svg/customers_star_icons.svg";
-import tick_icons from "../assets/images/svg/works_tick.svg";
-import blog_img from "../assets/images/webp/blog-card-img.webp";
+import tickIcons from "../assets/images/svg/works_tick.svg";
+import blogImg from "../assets/images/webp/blog-card-img.webp";
 
 export const WHAT_WE_DO_CARD = [
   {
@@ -50,7 +50,7 @@ export const WHAT_WE_DO_CARD = [
 
 export const CUSTOMERS_CARD = [
   {
-    img: mark_img,
+    img: markImg,
     heading: "Mark T.",
     job: "Fitness enthusiast",
     star: star,
@@ -58,7 +58,7 @@ export const CUSTOMERS_CARD = [
       "As a fitness enthusiast, I was skeptical about resistance bands at first. But after trying these, Im a believer. The quality is top-notch, and they ve become an integral part of my workout routine. I can't believe how versatile they are.”",
   },
   {
-    img: mark_img,
+    img: markImg,
     heading: "Mark T.",
     job: "Fitness enthusiast",
     star: star,
@@ -66,7 +66,7 @@ export const CUSTOMERS_CARD = [
       "As a fitness enthusiast, I was skeptical about resistance bands at first. But after trying these, Im a believer. The quality is top-notch, and they ve become an integral part of my workout routine. I can't believe how versatile they are.”",
   },
   {
-    img: mark_img,
+    img: markImg,
     heading: "Mark T.",
     job: "Fitness enthusiast",
     star: star,
@@ -74,7 +74,7 @@ export const CUSTOMERS_CARD = [
       "As a fitness enthusiast, I was skeptical about resistance bands at first. But after trying these, Im a believer. The quality is top-notch, and they ve become an integral part of my workout routine. I can't believe how versatile they are.”",
   },
   {
-    img: mark_img,
+    img: markImg,
     heading: "Mark T.",
     job: "Fitness enthusiast",
     star: star,
@@ -82,7 +82,7 @@ export const CUSTOMERS_CARD = [
       "As a fitness enthusiast, I was skeptical about resistance bands at first. But after trying these, Im a believer. The quality is top-notch, and they ve become an integral part of my workout routine. I can't believe how versatile they are.”",
   },
   {
-    img: mark_img,
+    img: markImg,
     heading: "Mark T.",
     job: "Fitness enthusiast",
     star: star,
@@ -90,7 +90,7 @@ export const CUSTOMERS_CARD = [
       "As a fitness enthusiast, I was skeptical about resistance bands at first. But after trying these, Im a believer. The quality is top-notch, and they ve become an integral part of my workout routine. I can't believe how versatile they are.”",
   },
   {
-    img: mark_img,
+    img: markImg,
     heading: "Mark T.",
     job: "Fitness enthusiast",
     star: star,
@@ -99,21 +99,21 @@ export const CUSTOMERS_CARD = [
   },
 ];
 
-export const Works_box = [
+export const WORKS_BOX = [
   {
-    tick_icon: tick_icons,
+    tick_icon: tickIcons,
     heading: "Contact us",
     paragraph:
       "Lörem ipsum deligen vuprer diar faktigt på dehädiska att sara. Persion. Repp löng blippbetalning. Megaliga fadat om än dening",
   },
   {
-    tick_icon: tick_icons,
+    tick_icon: tickIcons,
     heading: "Get a Qoute",
     paragraph:
       "Lörem ipsum deligen vuprer diar faktigt på dehädiska att sara. Persion. Repp löng blippbetalning. Megaliga fadat om än dening",
   },
   {
-    tick_icon: tick_icons,
+    tick_icon: tickIcons,
     heading: "Get your Work Done",
     paragraph:
       "Lörem ipsum deligen vuprer diar faktigt på dehädiska att sara. Persion. Repp löng blippbetalning. Megaliga fadat om än dening",
@@ -121,7 +121,7 @@ export const Works_box = [
 ];
 export const BLOG_CARD = [
   {
-    img: blog_img,
+    img: blogImg,
     heading: "Lörem ipsum koda astrobel: sutaveligen. Rodod bänera viliga. ",
     learn: "Learn more",
     arrow: (
@@ -141,7 +141,7 @@ export const BLOG_CARD = [
   },
 
   {
-    img: blog_img,
+    img: blogImg,
     heading: "Lörem ipsum koda astrobel: sutaveligen. Rodod bänera viliga. ",
     learn: "Learn more",
     arrow: (
@@ -161,7 +161,7 @@ export const BLOG_CARD = [
   },
 
   {
-    img: blog_img,
+    img: blogImg,
     heading: "Lörem ipsum koda astrobel: sutaveligen. Rodod bänera viliga. ",
     learn: "Learn more",
     arrow: (

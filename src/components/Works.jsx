@@ -1,17 +1,17 @@
 import React from "react";
-import works_pic from "../assets/images/webp/works_big_pic.webp";
+import worksPic from "../assets/images/webp/works_big_pic.webp";
 import CommonHeading from "../common/CommonHeading";
-import { Works_box } from "../common/Helper";
+import { WORKS_BOX } from "../common/Helper";
 import CommonButton from "../common/CommonButton";
 
 const Works = () => {
   return (
-    <div className="container">
+    <div id="quote" className="container">
       <div className="flex xl:gap-16 max-xl:justify-center ">
         <div className="relative max-xl:hidden ml-[50px] mb-[50px]">
           <img
             className="max-w-[435px] relative z-30"
-            src={works_pic}
+            src={worksPic}
             alt="work"
           />
           <div className="max-w-[300px] w-full min-h-[396px] z-0 rounded-3xl bg-red absolute max-xl:translate-y-[-50px] -bottom-[4%] -left-[50px]"></div>
@@ -23,7 +23,7 @@ const Works = () => {
             Lörem ipsum koda astrobel: sutaveligen. Rodod bänera viliga. Pregigt
             primasofi dede facebooka: förutom tivaligt.{" "}
           </p>
-          {Works_box.map((data, index) => (
+          {WORKS_BOX.map((data, index) => (
             <div
               key={index}
               className="shadow-[0px_1px_28px_1px_#4747471A] mt-4 p-4 bg-white rounded-3xl"

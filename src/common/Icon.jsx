@@ -1,4 +1,4 @@
-export const Navcross = () => {
+export const NavCross = () => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -12,7 +12,7 @@ export const Navcross = () => {
     </svg>
   );
 };
-export const Navline = () => {
+export const NavLine = () => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -30,7 +30,7 @@ export const Navline = () => {
   );
 };
 
-export const Buttonicon = () => {
+export const ButtonIcon = () => {
   return (
     <svg className="nav_btn_icon"
       width="24"
@@ -67,7 +67,7 @@ export const Star = () => {
     </svg>
   );
 };
-export const Redarrowcard = () => {
+export const RedArrowCard = () => {
   return (
     <svg
       width="26"
@@ -110,7 +110,7 @@ export const Like = () => {
     </svg>
   );
 };
-export const Callicon = () => {
+export const CalliCon = () => {
   return (
     <svg
       width="32"

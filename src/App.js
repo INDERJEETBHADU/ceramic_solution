@@ -1,5 +1,5 @@
 import './App.css';
-import Blog from './components/Blog';
+import OurBlog from './components/OurBlog';
 import Customers from './components/Customers';
 import Hero from './components/Hero';
 import Whatwedo from "./components/Whatwedo"
@@ -18,9 +18,7 @@ function App() {
       <Customers/>
       <Works/>
       <Interested/>
-      <Blog/>
-      
-      
+      <OurBlog/>
     </>
   );
 }

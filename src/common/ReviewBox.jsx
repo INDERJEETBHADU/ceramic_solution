@@ -1,7 +1,7 @@
 import React from "react";
 import { Star } from "../common/Icon";
 import google from "../assets/images/svg/google.svg";
-import large_star from "../assets/images/svg/large_star.svg";
+import largeStar from "../assets/images/svg/large_star.svg";
 
 function ReviewBox(props) {
   return (
@@ -11,11 +11,11 @@ function ReviewBox(props) {
           <div className="flex items-center gap-[10.67px]">
             <img src={google} alt="google" />
             <div className="">
-              <h5 className="font-manrope font-normal text-xs leading-[19.2px] text-cod_gray">
+              <h5 className="font-manrope font-normal text-xs leading-[19.2px] text-grey">
                 Google Review
               </h5>
               <div className="flex gap-[4.33px] items-center">
-                <h3 className="font-manrope font-normal text-xl leading-[32px] text-cod_gray">
+                <h3 className="font-manrope font-normal text-xl leading-[32px] text-grey">
                   4.6
                 </h3>
                 <div className="flex">
@@ -26,7 +26,7 @@ function ReviewBox(props) {
                   <Star />
                 </div>
               </div>
-              <p className="font-manrope font-normal text-nowrap text-xs leading-[19.2px] text-cod_gray">
+              <p className="font-manrope font-normal text-nowrap text-xs leading-[19.2px] text-grey">
                 Based on 145 reviews
               </p>
             </div>
@@ -36,15 +36,15 @@ function ReviewBox(props) {
           <div className="flex h-full gap-[10.67px]">
             <img
               className="h-[53.33px] w-full max-w-[53.33px] mt-1"
-              src={large_star}
-              alt="large_star"
+              src={largeStar}
+              alt="largeStar"
             />
             <div>
-              <h5 className="font-manrope font-normal text-xs leading-[19.2px] text-cod_gray">
+              <h5 className="font-manrope font-normal text-xs leading-[19.2px] text-grey">
                 Trust Pilot Review
               </h5>
               <div className="flex gap-[4.33px] items-center">
-                <h3 className="font-manrope font-normal text-xl leading-[32px] text-cod_gray">
+                <h3 className="font-manrope font-normal text-xl leading-[32px] text-grey">
                   4.6
                 </h3>
                 <div className="flex">
@@ -55,7 +55,7 @@ function ReviewBox(props) {
                   <Star />
                 </div>
               </div>
-              <p className="font-manrope font-normal text-nowrap text-xs leading-[19.2px] text-cod_gray">
+              <p className="font-manrope font-normal text-nowrap text-xs leading-[19.2px] text-grey">
                 Based on 145 reviews
               </p>
             </div>

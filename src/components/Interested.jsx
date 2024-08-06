@@ -3,12 +3,9 @@ import CommonHeading from "../common/CommonHeading";
 
 const Interested = () => {
   return (
-    <div className="container pt-xxl max-lg:pt-20">
+    <div id="contact" className="container pt-xxl max-lg:pt-20">
       <div className="bg-[url(../src/assets/images/webp/interested-bg-img.webp)] px-6 py-16 max-lg:py-9 bg-[#FF0000BF] bg-no-repeat bg-cover bg-center rounded-3xl">
-        <CommonHeading
-          text="Interested?"
-          className="text-white text-center"
-        />
+        <CommonHeading text="Interested?" className="text-white text-center" />
         <CommonHeading
           text="Get in touch with us"
           className="text-white text-center"

@@ -1,24 +1,40 @@
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif !important;
+}
+
+.swiper-pagination-bullet-active {
+    opacity: var(--swiper-pagination-bullet-opacity, 1);
+    background: red !important;
+}
+
 .slick-slide {
     display: flex !important;
     justify-content: center !important;
 }
 
-.slick-slider .slick-track {
-    display: flex !important;
-    gap: 24px !important;
+.swiper-horizontal>.swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal {
+    bottom: -5px !important;
 }
 
-.slick-dots {
-    bottom: -24px !important;
+.nav_btn .nav_btn_icon path {
+    fill: white;
+    transition: all linear 300ms;
 }
 
-.slick-dots li button:before {
-    font-size: 10px !important;
-    width: 10px !important;
-    height: 10px !important;
+.nav_btn:hover .nav_btn_icon path {
+    fill: red;
 }
 
-.slick-dots li.slick-active button:before {
-    opacity: .75;
-    color: #FF0000 !important;
+.blog_swiper .swiper-pagination {
+    bottom: 75px !important;
+}
+.swiper-slide{
+    margin-left: unset !important;
+}
+
+@media (max-width:992px) {
+    .blog_swiper .swiper-pagination {
+        bottom: 24px !important;
+    }
 }

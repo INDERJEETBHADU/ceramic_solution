@@ -6,8 +6,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        'Plus': "'Plus Jakarta Sans',sans-serif",
-        'Manrope': "'Manrope', sans-serif"
+        'manrope': "'Manrope', sans-serif"
       },
       fontSize: {
         xxl: "64px",
@@ -30,8 +29,8 @@ module.exports = {
         red: "#FF0000",
         pink: "#FFEBEB",
         darkpink: "#B400011A",
-        cod_gray:"#141414",
-        dark_black:"#010101"
+        grey: "#141414",
+        dark_black: "#010101"
       },
       backgroundImage: {
         'hero': "url('./assets/images/webp/hero_bg_img.webp')",

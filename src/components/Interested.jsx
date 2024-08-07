@@ -1,9 +1,8 @@
 import React from 'react'
 import CommonHeading from '../common/CommonHeading'
-import CommonButton from '../common/CommonButton'
+
 const Interested = () => {
   return (
-
     <div className="container pt-xxl max-lg:pt-[80px]">
       <div className='bg-[url(../src/assets/images/webp/interested-bg-img.webp)] px-6 py-16 max-lg:py-9 bg-[#FF0000BF] bg-no-repeat bg-cover bg-center rounded-3xl'>
         <CommonHeading text="Interested?" spacing="text-white" align="text-center" />

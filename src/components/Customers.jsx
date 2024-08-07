@@ -14,13 +14,13 @@ const Customers = () => {
     cssEase: "linear",
     variableWidth: true,
     slidesToScroll: 1,
-  };
+  }; 
   return (
-    <div className=" max-w-[1440px] mx-auto">
-      <div className=" container pt-xxl max-lg:pt-[80px] ">
+    <div className="max-w-[1440px] mx-auto">
+      <div className="container pt-xxl max-lg:pt-[80px] ">
         <CommonHeading text="What Our Customers Say" align="text-center" />
         <div className="flex justify-center ">
-          <p className=" font-Plus mt-5 max-lg:mt-4 text-lg max-sm:text-sm max-md:text-sm max-md:!leading-[22.4px] !leading-[28.8px]  text-black max-w-[641px] text-center ">
+          <p className="font-Plus mt-5 max-lg:mt-4 text-lg max-sm:text-sm max-md:text-sm max-md:!leading-[22.4px] !leading-[28.8px] text-black max-w-[641px] text-center">
             Lörem ipsum koda astrobel: sutaveligen. Rodod bänera viliga. Pregigt
             primasofi dede facebooka: förutom tivaligt. Fejkade
           </p>
